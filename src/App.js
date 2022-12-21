@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Gugudan from "./gugudan";
 import Use from "./use";
 function Article(props) {
   return (
@@ -246,6 +247,7 @@ function App() {
         </li>
         {contextControl}
         {Use()}
+        {Gugudan()}
       </ul>
     </div>
   );
